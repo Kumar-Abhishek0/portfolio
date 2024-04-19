@@ -45,11 +45,13 @@
 
         &:hover::after {
           width: 100%;
-          background: var(--yellow-theme-main-color);
+          //background: var(--yellow-theme-main-color);
+          background: white;
         }
 
         &__links {
-          color: var(--yellow-theme-main-color);
+          //color: var(--yellow-theme-main-color);
+          color: whitesmoke;
           text-decoration: none;
           padding: 0.5rem;
         }
