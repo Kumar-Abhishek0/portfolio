@@ -11,6 +11,12 @@ const Home = () => {
           SDET/QA Engineer
         </h1>
       </div>
+      <div className="home__contact-me">
+        <button>Contact Me</button>
+        <button>About Me</button>
+        <button>Resume</button>
+        <button> Skills </button>
+      </div>
     </section>
   )
 }
