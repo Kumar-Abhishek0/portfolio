@@ -2,6 +2,7 @@ import React from 'react'
 import { BsInfoCircleFill } from 'react-icons/bs'
 import PageHeaderContent from '../../components/pageHeaderContent'
 import { Animate } from 'react-simple-animate'
+import './style.scss'
 
 const personalDetails = [
   { label: 'Name', value: 'Kumar Abhishek' },
@@ -19,19 +20,39 @@ const About = () => {
         headerText="About Me"
         icon={<BsInfoCircleFill size={40} />}
       />
+      <div className="about__content">
+        <div className="about__content__personalWrapper">
+          <Animate
+            play
+            duration={5}
+            delay={1}
+            start={{ transform: 'translateX(-900px)' }}
+            end={{ transform: 'translatex(0px)' }}
+          >
+            <h3>Software Developer in Test</h3>
+            <p>{jobSummary}</p>
+          </Animate>
 
-      <Animate
-        play
-        duration={5}
-        delay={1}
-        start={{ transform: 'translateX(-900px)' }}
-        end={{ transform: 'translatex(0px)' }}
-      >
-        <div className="about__content">
-          <h3>Software Developer in Test</h3>
-          <p>{jobSummary}</p>
+          <Animate
+            play
+            duration={5}
+            delay={1}
+            start={{ transform: 'translateX(500px)' }}
+            end={{ transform: 'translatex(0px)' }}
+          >
+            <h3>Personal Information</h3>
+            <ul>
+              {personalDetails.map((item, index) => (
+                <li key={index}>
+                  <span>{item.label}</span>
+                  <span>{item.value}</span>
+                </li>
+              ))}
+            </ul>
+          </Animate>
         </div>
-      </Animate>
+        <div className="about__content__sericeWrapper">Services Wrapper</div>
+      </div>
     </section>
   )
 }
