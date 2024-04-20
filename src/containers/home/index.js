@@ -30,7 +30,6 @@ const Home = () => {
           SDET/QA Engineer
         </h1>
       </div>
-      <div className="home__about-me"></div>
       <div className="home__contact-me">
         <button onClick={handleNavigateToAboutMePage}>About Me</button>
         <button onClick={handleNavigateToContactMePage}>Contact Me</button>
