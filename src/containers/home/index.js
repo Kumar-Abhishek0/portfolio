@@ -40,10 +40,8 @@ const Home = () => {
       >
         <div className="home__contact-me">
           <button onClick={handleNavigateToAboutMePage}>About Me</button>
-          <button onClick={handleNavigateToContactMePage}>Contact Me</button>
-          <button onClick={handleNavigateToPortfolioPage}>Portfolio</button>
-          <button onClick={handleNavigateToResumePage}>Resume</button>
           <button onClick={handleNavigateToSkillsPage}> Skills </button>
+          <button onClick={handleNavigateToResumePage}>Resume</button>
         </div>
       </Animate>
     </section>
