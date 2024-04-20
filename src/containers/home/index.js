@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Animate } from 'react-simple-animate'
 import './style.scss'
 
 const Home = () => {
@@ -30,13 +31,21 @@ const Home = () => {
           SDET/QA Engineer
         </h1>
       </div>
-      <div className="home__contact-me">
-        <button onClick={handleNavigateToAboutMePage}>About Me</button>
-        <button onClick={handleNavigateToContactMePage}>Contact Me</button>
-        <button onClick={handleNavigateToPortfolioPage}>Portfolio</button>
-        <button onClick={handleNavigateToResumePage}>Resume</button>
-        <button onClick={handleNavigateToSkillsPage}> Skills </button>
-      </div>
+      <Animate
+        play
+        duration={1.5}
+        delay={1}
+        start={{ transform: 'translateY(550px)' }}
+        end={{ transform: 'translatex(0px)' }}
+      >
+        <div className="home__contact-me">
+          <button onClick={handleNavigateToAboutMePage}>About Me</button>
+          <button onClick={handleNavigateToContactMePage}>Contact Me</button>
+          <button onClick={handleNavigateToPortfolioPage}>Portfolio</button>
+          <button onClick={handleNavigateToResumePage}>Resume</button>
+          <button onClick={handleNavigateToSkillsPage}> Skills </button>
+        </div>
+      </Animate>
     </section>
   )
 }
