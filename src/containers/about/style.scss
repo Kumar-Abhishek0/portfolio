@@ -16,6 +16,54 @@
         font-size: 2.5rem;
         font-weight: 700;
         color: white;
+        padding-bottom: 20px;
+      }
+
+      h3.personalInformationHeaderText {
+        padding-top: 20px;
+        text-decoration: underline lightseagreen;
+        letter-spacing: 1.5px;
+      }
+
+      p {
+        border-bottom: 1px dashed white;
+        padding-bottom: 20px;
+        line-height: 1.8rem;
+        font-size: 2.2rem;
+        color: lightseagreen;
+        color: gray;
+        letter-spacing: 1px;
+      }
+
+      ul > li {
+        line-height: 1rem;
+        margin-bottom: 15px;
+
+        span.title,
+        span.value {
+          font-size: 2rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+          border-bottom: 2px white;
+          position: relative;
+          display: inline-block;
+          margin-right: 16px;
+          padding-bottom: 5px;
+          color: gray;
+          text-decoration: underline;
+        }
+
+        span.value {
+          border: none;
+        }
+      }
+    }
+
+    &__serviceWrapper {
+      &__innerContent {
+        width: 350px;
+        height: 350px;
+        background: radial-gradient(180px, white, transparent 90%);
       }
     }
   }
