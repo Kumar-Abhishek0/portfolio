@@ -34,19 +34,19 @@ export const skillsData = [
     ],
   },
   {
-    label: 'DATABASES',
+    label: 'TOOLS',
     data: [
       {
-        skillName: 'SQL',
+        skillName: 'GIT',
+        percentage: '80',
+      },
+      {
+        skillName: 'POSTMAN',
+        percentage: '75',
+      },
+      {
+        skillName: 'JMETER',
         percentage: '70',
-      },
-      {
-        skillName: 'MONGO DB',
-        percentage: '65',
-      },
-      {
-        skillName: 'ORACLE',
-        percentage: '85',
       },
     ],
   },

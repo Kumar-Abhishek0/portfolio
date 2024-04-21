@@ -5,6 +5,7 @@ import './style.scss'
 import About from '../about' // Import the 'About' component
 import Skills from '../skills'
 import Resume from '../resume'
+import kresume from '../home/resume.pdf'
 
 const Home = () => {
   const navigate = useNavigate()
@@ -40,6 +41,9 @@ const Home = () => {
             <button onClick={handleNavigateToAboutMePage}>About Me</button>
             <button onClick={handleNavigateToSkillsPage}> My Skills </button>
             <button onClick={handleNavigateToResumePage}>My Resume</button>
+            <a href={kresume} download="kumar-resume.pdf">
+              <button>Download Resume</button>
+            </a>
           </div>
         </Animate>
       </section>
