@@ -74,7 +74,7 @@ function App() {
       {/* main page content */}
       <div className="App__main-page-content">
         <Routes>
-          <Route index path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
