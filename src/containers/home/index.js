@@ -5,19 +5,15 @@ import './style.scss'
 
 const Home = () => {
   const navigate = useNavigate()
-  const handleNavigateToContactMePage = () => {
-    navigate('/contact')
-  }
 
   const handleNavigateToAboutMePage = () => {
     navigate('/about')
   }
-  const handleNavigateToPortfolioPage = () => {
-    navigate('/portfolio')
-  }
+
   const handleNavigateToResumePage = () => {
     navigate('/resume')
   }
+  
   const handleNavigateToSkillsPage = () => {
     navigate('/skills')
   }
