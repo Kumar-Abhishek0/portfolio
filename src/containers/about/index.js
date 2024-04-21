@@ -15,10 +15,6 @@ const personalDetails = [
   { label: 'Location:', value: 'Bay Area, CA' },
 ]
 
-const jobSummary = `I am a Software Development Engineer in Test (SDET) with 5 years of experience in software testing and quality assurance.
-  I have a strong understanding of software development life cycle (SDLC) and software testing life cycle (STLC). I have experience in writing test plans, test cases, test scripts, test scenarios, and test data. I have experience in manual testing, automation testing, and performance testing.
-  I have experience in testing web applications, mobile applications, and APIs. I have experience in testing on different platforms like Windows, Mac, and Linux. I have experience in testing on different browsers like Chrome, Firefox, Safari, and Edge.
-  I have experience in testing on different devices like desktop, laptop, tablet, and mobile. I have experience in testing on different screen sizes like 13 inch, 15 inch, 21 inch, and 27 inch. I have experience in testing on different resolutions like 1366x768, 1920x1080, 2560x1440, and 3840x2160.`
 const About = () => {
   return (
     <section id="about" className="about">
@@ -39,40 +35,34 @@ const About = () => {
             <p>
               <ul class="bullet-list">
                 <li>
-                  I am a Software Development Engineer in Test (SDET) with 8
-                  years of experience in software testing and quality assurance.
+                  Master's degree(Graduated Dec 2016) in Computer Science from
+                  Rochester Institute of Technology.
                 </li>
                 <li>
-                  I have a strong understanding of software development life
-                  cycle (SDLC) and software testing life cycle (STLC).
+                  7+ Years of professional experience in software testing which
+                  includes Automation, functional and Performance testing.
+                </li>
+                <li>
+                  Expertise in writing test automation frameworks from scratch
+                  for Web & Mobile applications.
+                </li>
+                <li>
+                  Proficient in testing frameworks like Cypress.io, Selenium
+                  WebDriver, Appium, TestNG, Junit, Cucumber & JMeter.
                 </li>
                 <li>
                   I am proficient in writing test plans, test cases, test
                   scripts, test scenarios, and test data.
                 </li>
                 <li>
-                  I have extensive experience in manual testing, automation
-                  testing, and performance testing.
+                  I have extensive experience in manual, automation, load,
+                  performance and API testing.
                 </li>
                 <li>
-                  I am skilled in testing web applications, mobile applications,
-                  and APIs.
+                  Well versed with programmimg languages like JavaScript, Java,
+                  python and kotlin.
                 </li>
-                <li>
-                  I have expertise in testing on various platforms like Windows,
-                  Mac, and Linux, as well as different browsers like Chrome,
-                  Firefox, Safari, and Edge.
-                </li>
-                <li>
-                  I have tested applications on different devices including
-                  desktops, laptops, tablets, and mobile devices, across various
-                  screen sizes and resolutions.
-                </li>
-                <li>
-                  I have a proven track record of delivering high-quality
-                  software products by ensuring thorough testing and adherence
-                  to best practices.
-                </li>
+                <li>Certification in Meta Front-End Development.</li>
               </ul>
             </p>
           </Animate>

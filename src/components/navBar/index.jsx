@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import { FaBars, FxReact } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 import { HiX } from 'react-icons/hi'
 import './style.scss'
 

@@ -1,10 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  background: {
-    color: {
-      value: '#1d1d1d',
-    },
-  },
   fpsLimit: 120,
   interactivity: {
     events: {
@@ -36,7 +31,7 @@ export default {
       color: '#ffffff',
       distance: 150,
       enable: true,
-      opacity: 0.5,
+      opacity: 0.2,
       width: 1,
     },
     collisions: {

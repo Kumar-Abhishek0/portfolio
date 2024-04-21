@@ -17,7 +17,8 @@ function App() {
     await loadFull(main)
   }
 
-  const renderParticleJsInHomePage = location.pathname === '/'
+  const renderParticleJsInHomePage =
+    location.pathname === '/' || location.pathname === '/portfolio'
 
   return (
     <div className="App">
