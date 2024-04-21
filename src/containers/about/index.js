@@ -36,7 +36,45 @@ const About = () => {
             end={{ transform: 'translatex(0px)' }}
           >
             <h3>SDET/QA Engineer</h3>
-            <p>{jobSummary}</p>
+            <p>
+              <ul class="bullet-list">
+                <li>
+                  I am a Software Development Engineer in Test (SDET) with 8
+                  years of experience in software testing and quality assurance.
+                </li>
+                <li>
+                  I have a strong understanding of software development life
+                  cycle (SDLC) and software testing life cycle (STLC).
+                </li>
+                <li>
+                  I am proficient in writing test plans, test cases, test
+                  scripts, test scenarios, and test data.
+                </li>
+                <li>
+                  I have extensive experience in manual testing, automation
+                  testing, and performance testing.
+                </li>
+                <li>
+                  I am skilled in testing web applications, mobile applications,
+                  and APIs.
+                </li>
+                <li>
+                  I have expertise in testing on various platforms like Windows,
+                  Mac, and Linux, as well as different browsers like Chrome,
+                  Firefox, Safari, and Edge.
+                </li>
+                <li>
+                  I have tested applications on different devices including
+                  desktops, laptops, tablets, and mobile devices, across various
+                  screen sizes and resolutions.
+                </li>
+                <li>
+                  I have a proven track record of delivering high-quality
+                  software products by ensuring thorough testing and adherence
+                  to best practices.
+                </li>
+              </ul>
+            </p>
           </Animate>
 
           <Animate
