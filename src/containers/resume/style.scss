@@ -17,8 +17,8 @@
 
     &__header-text {
       display: inline-block;
-      color: var(--yellow-theme-sub-text-color);
-      font-size: 32px;
+      color: white;
+      font-size: 36px;
       font-weight: 700;
       line-height: 2rem;
       letter-spacing: 2px;
@@ -59,7 +59,7 @@
 
       h3,
       h4 {
-        font-size: 16px;
+        font-size: 22px;
       }
 
       h4 {
@@ -68,7 +68,7 @@
     }
 
     .vertical-timeline-element-title-wrapper-description {
-      font-size: 18px;
+      font-size: 22px;
     }
 
     .vertical-timeline-element-content {

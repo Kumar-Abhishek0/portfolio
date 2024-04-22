@@ -14,6 +14,18 @@ export const skillsData = [
         skillName: 'Appium',
         percentage: '70',
       },
+      {
+        skillName: 'BrowserStack',
+        percentage: '70',
+      },
+      {
+        skillName: 'Maven',
+        percentage: '70',
+      },
+      {
+        skillName: 'ROBOT',
+        percentage: '70',
+      },
     ],
   },
   {
@@ -29,7 +41,19 @@ export const skillsData = [
       },
       {
         skillName: 'PYTHON',
-        percentage: '35',
+        percentage: '60',
+      },
+      {
+        skillName: 'SQL',
+        percentage: '55',
+      },
+      {
+        skillName: 'Shell scripting',
+        percentage: '50',
+      },
+      {
+        skillName: 'React',
+        percentage: '30',
       },
     ],
   },
@@ -47,6 +71,47 @@ export const skillsData = [
       {
         skillName: 'JMETER',
         percentage: '70',
+      },
+      {
+        skillName: 'AWS / GCP',
+        percentage: '70',
+      },
+      {
+        skillName: 'GCP',
+        percentage: '70',
+      },
+      {
+        skillName: 'JIRA',
+        percentage: '70',
+      },
+    ],
+  },
+  {
+    label: 'SKILLS',
+    data: [
+      {
+        skillName: 'TEST AUTOMATION',
+        percentage: '95',
+      },
+      {
+        skillName: 'TEST PLANNING',
+        percentage: '90',
+      },
+      {
+        skillName: 'REPORTING',
+        percentage: '90',
+      },
+      {
+        skillName: 'MANUAL TESTING',
+        percentage: '100',
+      },
+      {
+        skillName: 'COLLABORATION',
+        percentage: '100',
+      },
+      {
+        skillName: 'COMMUNICATION',
+        percentage: '100',
       },
     ],
   },

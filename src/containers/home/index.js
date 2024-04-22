@@ -52,11 +52,11 @@ const Home = () => {
         <About />
       </div>
 
-      <div style={{ paddingTop: '50px' }}>
+      <div style={{ paddingTop: '100px' }}>
         <Skills />
       </div>
 
-      <div style={{ paddingTop: '50px' }}>
+      <div style={{ paddingTop: '150px' }}>
         <Resume />
       </div>
     </div>

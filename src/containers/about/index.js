@@ -40,27 +40,39 @@ const About = () => {
                 </li>
                 <li>
                   7+ Years of professional experience in software testing which
-                  includes Automation, functional and Performance testing.
+                  includes Automation, Functional, Load, Performance & API
+                  testing.
                 </li>
                 <li>
-                  Expertise in writing test automation frameworks from scratch
-                  for Web & Mobile applications.
+                  Proficient in designing and implementing testing frameworks
+                  like Cypress.io, Selenium WebDriver, Appium, TestNG, Junit,
+                  Cucumber & JMeter.
+                </li>
+
+                <li>
+                  Expert in writing & maintaining test automation scripts for
+                  Web & Mobile applications.
                 </li>
                 <li>
-                  Proficient in testing frameworks like Cypress.io, Selenium
-                  WebDriver, Appium, TestNG, Junit, Cucumber & JMeter.
+                  Skilled in writing test stratigies/plans, test cases, test
+                  scenarios & test data.
                 </li>
                 <li>
-                  I am proficient in writing test plans, test cases, test
-                  scripts, test scenarios, and test data.
-                </li>
-                <li>
-                  I have extensive experience in manual, automation, load,
-                  performance and API testing.
+                  Experienced working with multi cross-functional teams to
+                  understand requirements for projects/features & design test
+                  strategies/plans to automate them resulting in >70% reduction
+                  in manual testing.
                 </li>
                 <li>
                   Well versed with programmimg languages like JavaScript, Java,
-                  python and kotlin.
+                  Python.
+                </li>
+                <li>
+                  Experienced in testing RESTful API services using POSTMAN.
+                </li>
+                <li>
+                  Expert in testing features manually & collaborating with
+                  engineers to ensure smooth releases.
                 </li>
                 <li>Certification in Meta Front-End Development.</li>
               </ul>
