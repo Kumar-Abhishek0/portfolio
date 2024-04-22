@@ -41,15 +41,25 @@ const Resume = () => {
                 }}
               >
                 <div className="vertical-timeline-element-title-wrapper">
+                  <h3>{item.company}</h3>
+                </div>
+                <div className="vertical-timeline-element-title-wrapper">
                   <h3>{item.title}</h3>
 
                   <h4>{item.subTitle}</h4>
                 </div>
+
                 <div className="vertical-timeline-element-title-wrapper">
-                  <h4>{item.Year}</h4>
+                  <h3>{item.year}</h3>
                 </div>
                 <p className="vertical-timeline-element-title-wrapper-description">
-                  {item.description}{' '}
+                  {item.description1}{' '}
+                </p>
+                <p className="vertical-timeline-element-title-wrapper-description">
+                  {item.description2}{' '}
+                </p>
+                <p className="vertical-timeline-element-title-wrapper-description">
+                  {item.description3}
                 </p>
               </VerticalTimelineElement>
             ))}
@@ -79,6 +89,11 @@ const Resume = () => {
               >
                 <div className="vertical-timeline-element-title-wrapper">
                   <h3>{item.title}</h3>
+
+                  <h4>{item.subTitle}</h4>
+                </div>
+                <div className="vertical-timeline-element-title-wrapper">
+                  <h3>{item.school}</h3>
 
                   <h4>{item.subTitle}</h4>
                 </div>
